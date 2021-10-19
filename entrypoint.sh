@@ -8,3 +8,4 @@ done
 until pg_isready; do
 	echo "Waiting for pg_isready"
 done
+sleep 5
