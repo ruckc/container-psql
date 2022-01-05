@@ -14,3 +14,5 @@ until psql -qa -c 'select 1 connected;'; do
 	echo "Waiting for successful connection"
 	sleep 1
 done
+
+exec psql $@
